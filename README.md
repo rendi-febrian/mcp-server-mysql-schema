@@ -6,9 +6,11 @@
 [![CI](https://github.com/rendi-febrian/mcp-server-mysql-schema/actions/workflows/ci.yml/badge.svg)](https://github.com/rendi-febrian/mcp-server-mysql-schema/actions/workflows/ci.yml)
 [![GitHub stars](https://img.shields.io/github/stars/rendi-febrian/mcp-server-mysql-schema?style=social)](https://github.com/rendi-febrian/mcp-server-mysql-schema)
 
-<p align="center">
-  <img src="demo.gif" width="700" alt="MySQL Schema MCP Server Demo">
-</p>
+<div align="center">
+  <img src="demo.gif" width="720" alt="MySQL Schema MCP Server Demo">
+  <br>
+  <em>Explore tables, columns, FKs, indexes via MCP</em>
+</div>
 
 MySQL Schema MCP Server — explore tables, columns, foreign keys, indexes, and relationships through the [Model Context Protocol](https://modelcontextprotocol.io). Works with opencode, Claude Desktop, Cursor, and any MCP-compatible AI client.
 
