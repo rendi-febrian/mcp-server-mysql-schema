@@ -1,12 +1,46 @@
 {
-  "name": "mcp-server-schema",
+  "name": "mcp-server-mysql-schema",
   "version": "1.0.0",
-  "description": "MCP server for MySQL database schema introspection",
+  "description": "MCP server for MySQL database schema introspection — tables, columns, foreign keys, indexes, relationships",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "mcp-server-mysql-schema": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mysql",
+    "database",
+    "schema",
+    "introspection",
+    "ai",
+    "opencode",
+    "claude"
+  ],
+  "author": "Rendi Febrian",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rendi-febrian/mcp-server-mysql-schema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rendi-febrian/mcp-server-mysql-schema/issues"
+  },
+  "homepage": "https://github.com/rendi-febrian/mcp-server-mysql-schema#readme",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.15.1",
