@@ -6,6 +6,8 @@
 [![CI](https://github.com/rendi-febrian/mcp-server-mysql-schema/actions/workflows/ci.yml/badge.svg)](https://github.com/rendi-febrian/mcp-server-mysql-schema/actions/workflows/ci.yml)
 [![GitHub stars](https://img.shields.io/github/stars/rendi-febrian/mcp-server-mysql-schema?style=social)](https://github.com/rendi-febrian/mcp-server-mysql-schema)
 
+![Demo](demo.gif)
+
 MySQL Schema MCP Server — explore tables, columns, foreign keys, indexes, and relationships through the [Model Context Protocol](https://modelcontextprotocol.io). Works with opencode, Claude Desktop, Cursor, and any MCP-compatible AI client.
 
 No more writing `SHOW TABLES` and `DESCRIBE` manually. Ask your AI assistant "what tables are in this database?", "show me the foreign keys of the orders table", or "find all columns named 'status'" — and get structured JSON responses.
